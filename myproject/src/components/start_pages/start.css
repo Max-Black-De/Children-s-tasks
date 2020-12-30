@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body{
+font-family: 'Architects Daughter', cursive;
+}
+.main {
+    display: flex;
+    border-radius: 30px;
+    background-color: none;
+}
+
+.background {
+    margin: auto;
+    position: relative;
+    background: url('../images/background.svg') no-repeat center center;
+    width: 375px;
+    height: 812px;
+    border-radius: 30px;
+}
+
+.star {
+  margin: 35px 0px 0px 13px;
+  width: 350px;
+  height: 350px;
+    /* box-sizing: border-box;
+    display: block;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, 0.5); */
+}
+
+.status {
+  margin: 136px 0px 0px 54px;
+  cursor: pointer;
+  font-size: 48px;
+  height: 60px;
+  width: 267px;
+  }
+  
+  .create {
+    margin: 0px 54px;
+    cursor: pointer;
+    font-size: 48px;
+    height: 56px;
+    width: 274px;
+  }
+  
+  .search-box__form-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 991px) {
+    .search-box__form {
+      width: 90%;
+      padding: 0;
+    }
+    .search-box__form-input {
+      width: 320px;
+    }
+  }
